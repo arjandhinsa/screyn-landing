@@ -5,7 +5,7 @@ const features = [
   {
     icon: '👁',
     title: 'Blink rate tracking',
-    desc: 'Monitors how often you blink — the single best predictor of screen strain and waning focus.',
+    desc: 'Monitors how often you blink, which is the single best predictor of screen strain and waning focus.',
   },
   {
     icon: '🎯',
@@ -30,7 +30,7 @@ const features = [
   {
     icon: '📊',
     title: 'Session history',
-    desc: 'Review past sessions to spot patterns — when you focus best, when strain builds.',
+    desc: 'Review past sessions to spot patterns: when you focus best, when strain builds.',
   },
 ]
 
@@ -74,8 +74,7 @@ export default function App() {
           <h1 className="hero-title">Your screen time,<br/>optimised for focus.</h1>
           <p className="hero-subtitle">
             Screyn uses computer vision to track your blink rate, posture, and attention
-            in real-time — helping you understand when you're in flow and when to step away.
-            Built by an ophthalmic dispenser who knows what screen strain actually does to your eyes.
+            in real-time, to help you understand when you're in flow and when to step away.
           </p>
           <div className="hero-actions">
             <a
@@ -86,7 +85,7 @@ export default function App() {
             >
               View on GitHub
             </a>
-            <span className="hero-note">Desktop app coming soon</span>
+            <span className="hero-note">Desktop app postponed</span>
           </div>
         </section>
 
@@ -122,7 +121,7 @@ export default function App() {
             <p>
               Screyn processes every frame in memory and discards it immediately.
               No video is recorded. No data leaves your machine. No cloud. No account.
-              This isn't a feature — it's the architecture.
+              This isn't a feature, it's baked into the architecture.
             </p>
           </div>
         </section>
